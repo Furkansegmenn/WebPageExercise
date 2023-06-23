@@ -1,148 +1,148 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-html{
-
-    font-family: "Open Sans", sans-serif;
+html {
+	font-family: "Open Sans", sans-serif;
 }
-a{
-    color: #fff;
-    text-decoration: none;
+a {
+	color: #fff;
+	text-decoration: none;
 }
 
 /* Navbar Section*/
-#navbar{
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0.1rem;
-    height: 70px;
+#navbar {
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.1rem;
+	height: 70px;
 }
-#navbar ul{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
+#navbar ul {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
 }
-#navbar ul li a{
-    display: flex;
-    padding: 0.5rem;
+#navbar ul li a {
+	display: flex;
+	padding: 0.5rem;
 }
-#navbar ul li a:hover{
-    background-color: #336ea2;
-    border-radius: 7px;
+#navbar ul li a:hover {
+	background-color: #336ea2;
+	border-radius: 7px;
 }
 
 /* Home Section */
 
-#home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 1.5rem;
-    border-bottom: 1px solid grey;
+#home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 1.5rem;
+	border-bottom: 1px solid grey;
 }
-#home img{ 
-    width: 150px;
-    max-width: 100%;
-    margin: 0 auto;
-    height: auto;
-    border-radius: 100%;
+#home img {
+	width: 200px;
+	max-width: 100%;
+	margin: 0 auto;
+	height: auto;
+	border-radius: 100%;
 }
-#home .name h2{
-    margin-bottom: 0.75rem;
+#home .name h2 {
+	margin-bottom: 0.75rem;
 }
-#home .name p{
-    opacity: 0.6;
-    font-style: italic ;
-    font-weight: bold;
-    padding-bottom: 1.5rem;
+#home .name p {
+	opacity: 0.6;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 1.5rem;
 }
 
 /* About Section */
 
-#about{
-    color: #fff;
-    padding: 1rem;
+#about {
+	color: #fff;
+	padding: 1rem;
 }
-#about .items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#about .items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-#about .items .item{
-    width: 33%;
-    text-align: center;
-    padding: 0.5rem;
+#about .items .item {
+	width: 33%;
+	text-align: center;
+	padding: 0.5rem;
 }
 
-#about .items .item:hover{
-    color: rgba(200, 200, 220, 0.6);
+#about .items .item:hover {
+	color: rgba(200, 200, 220, 0.6);
 }
 
 /* Social Media Section*/
 
-.container .hesaplar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    padding: 5px;
-    width: 100%;
+.container .hesaplar {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+	padding: 5px;
+	width: 100%;
 }
 
-.container .hesaplar .hesap{
-    width: 100%;
-    border-radius: 15px;
-    margin: 0.5rem 0;
-    font-weight: 1000;
+.container .hesaplar .hesap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	margin: 0.5rem 0;
+	font-weight: 1000;
+	padding: 15px;
+	gap: 5px;
 }
-.container .hesaplar .instagram{
-    background-color: pink;
-    width: 100%;
+.container .hesaplar .instagram {
+	background-color: pink;
 }
-.container .hesaplar .instagram:hover{
-    background-color: #f2f2f2;
-    border: 2px solid #e4405f;
-    
+.container .hesaplar .instagram:hover {
+	background-color: #f2f2f2;
+	border: 2px solid #e4405f;
 }
-.container .hesaplar .instagram a:hover{
-    color: #e4405f
+.container .hesaplar .instagram:hover a {
+	color: #e4405f;
 }
-.container .hesaplar .twitter{
-    background-color: aqua;
+.container .hesaplar .twitter {
+	background-color: aqua;
 }
-.container .hesaplar .twitter:hover{
-    background-color: #f2f2f2;
-    border: 2px solid #1d9bf0 ;
+.container .hesaplar .twitter:hover {
+	background-color: #f2f2f2;
+	border: 2px solid #1d9bf0;
 }
-.container .hesaplar .twitter a:hover{
-    color: #1d9bf0;
+.container .hesaplar .twitter:hover a {
+	color: #1d9bf0;
 }
-.container .hesaplar .linkedin{
-    background-color: darkblue ;
+.container .hesaplar .linkedin {
+	background-color: darkblue;
 }
-.container .hesaplar .linkedin:hover{
-    background-color: #f2f2f2 ;
-    border: 2px solid #70b5f9;
-    color: #70b5f9;
+.container .hesaplar .linkedin:hover {
+	background-color: #f2f2f2;
+	border: 2px solid #70b5f9;
+	color: #70b5f9;
 }
-.container .hesaplar .linkedin:hover a{
-    color: #70b5f9;
-}
-
-
-.container .hesaplar .icon{
-    position: relative;
-    right: 70px;
-    top: 10px;
+.container .hesaplar .linkedin:hover a {
+	color: #70b5f9;
 }
 
-.container .hesaplar a{
-    position: relative;
-    bottom: 11px;
-    width: inherit;
+#contact {
+	padding: 0.25rem;
+	color: #fff;
 }
-
+.contact-form {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+}
