@@ -4,3 +4,9 @@
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
 }
+#about .items{
+    flex-direction: column;
+}
+#about .items .item{
+    width: 100%;
+}
