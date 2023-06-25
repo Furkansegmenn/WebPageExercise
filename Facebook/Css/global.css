@@ -1,0 +1,30 @@
+.bg-color {
+	background-color: #3c5898;
+}
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.btn-login {
+	min-width: 80px;
+	font-size: 1rem;
+	background-color: #3e5ca1;
+	border: 0.3px solid #00b;
+	border-radius: 7px;
+	padding: 0px;
+	color: #fff;
+	margin: auto 0;
+	padding: 5px;
+}
+.form-control {
+	width: 100%;
+	font-size: 1.2rem;
+	border-radius: 5px;
+}
+.form-control:focus {
+	background-color: rgb(255, 255, 201);
+	outline: none;
+}
+.container-2 {
+	padding: 0.8rem 0.4rem;
+}
